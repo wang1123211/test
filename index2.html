@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Diary</h1>
+      <div class="diary">
+        <a href="index.html"><button>Go todo</button></a>
+      </div>
+      <div class="input-group-diary">
+        <form>
+          <textarea
+            type="textarea"
+            id="diaryInput"
+            placeholder="write about your today"
+          ></textarea>
+        </form>
+
+        <div class="diary">
+          <button id="diary_Add" onclick="add_diary()">Add</button>
+        </div>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
